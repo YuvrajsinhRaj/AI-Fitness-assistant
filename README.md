@@ -24,17 +24,6 @@
 - **Program Management**: Create and view multiple fitness programs with only the latest one active
 - **Responsive Design**: Beautiful UI that works across all devices
 
-## Deployment
-
-This application can be easily deployed to Vercel:
-
-```shell
-npm run build
-npm run start
-```
-
-Or connect your GitHub repository to Vercel for automatic deployments.
-
 ## Technologies Used
 
 - **Next.js**: React framework for building the frontend and API routes
