@@ -1,25 +1,27 @@
 
-
-```markdown
 <div align="center">
 
-# 🌟 AI FITNESS ASSISTANT 🌟
-### *🤖 Your Personal AI-Powered Fitness & Nutrition Companion 🤖*
+# 💪 AI FITNESS ASSISTANT 🤖
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=18CEF2&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Transform+Your+Fitness+Journey;With+Cutting-Edge+AI+Technology;Voice-Powered+%7C+Personalized+%7C+Real-Time" alt="Typing SVG" />
+### *Your Personal AI-Powered Fitness & Nutrition Companion*
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=18CEF2&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Transform+Your+Fitness+Journey;With+Cutting-Edge+AI+Technology;Voice-Powered+%7C+Personalized+%7C+Real-Time" alt="Typing Animation" /> <br>
+
+---
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
 [![Vapi](https://img.shields.io/badge/Vapi-Voice_AI-FF6B6B?style=for-the-badge&logo=microphone&logoColor=white)](https://vapi.ai/)
 [![Gemini](https://img.shields.io/badge/Gemini-AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google/)
+[![Convex](https://img.shields.io/badge/Convex-Database-10B981?style=for-the-badge&logo=database&logoColor=white)](https://convex.dev/)
+[![Clerk](https://img.shields.io/badge/Clerk-Auth-7C3AED?style=for-the-badge&logo=shield&logoColor=white)](https://clerk.com/)
 
-<br/>
+---
 
 ### 🚀 [Live Demo](https://your-demo-link.com) • 📖 [Documentation](https://docs.link.com) • 🐛 [Report Bug](https://github.com/YuvrajsinhRaj/AI-Fitness-assistant/issues) • ✨ [Request Feature](https://github.com/YuvrajsinhRaj/AI-Fitness-assistant/issues)
-
-<br/>
 
 ![GitHub stars](https://img.shields.io/github/stars/YuvrajsinhRaj/AI-Fitness-assistant?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/YuvrajsinhRaj/AI-Fitness-assistant?style=social)
@@ -182,6 +184,26 @@ npm run dev
 </tr>
 </table>
 
+### 🔑 **Environment Variables**
+
+Create a `.env.local` file with the following:
+
+```bash
+# Convex
+CONVEX_DEPLOYMENT=your-convex-deployment
+NEXT_PUBLIC_CONVEX_URL=your-convex-url
+
+# Clerk Authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-key
+CLERK_SECRET_KEY=your-clerk-secret
+
+# Vapi Voice AI
+NEXT_PUBLIC_VAPI_WORKFLOW_ID=your-vapi-workflow-id
+
+# Google AI
+GOOGLE_AI_API_KEY=your-google-ai-key
+```
+
 ---
 
 <div align="center">
@@ -215,11 +237,6 @@ graph TB
     A --> D
     A --> F
     A --> I
-    
-    style A fill:#18CEF2,stroke:#fff,stroke-width:2px,color:#000
-    style F fill:#FF6B6B,stroke:#fff,stroke-width:2px,color:#fff
-    style G fill:#4285F4,stroke:#fff,stroke-width:2px,color:#fff
-    style I fill:#10B981,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
 ---
@@ -330,6 +347,35 @@ Screen reader friendly
 
 ---
 
+## 📱 **Key Features**
+
+### 🎙️ **Voice-Powered AI Assistant**
+Engage in natural conversations with an AI that understands your fitness goals, physical condition, and preferences. [1](#3-0) 
+
+### 🏋️ **Personalized Workout Plans**
+Get custom exercise routines based on your fitness level, injuries, and goals. The system uses structured data validation to ensure proper workout plan generation. [2](#3-1) 
+
+### 🥗 **Custom Diet Programs**
+Receive personalized meal plans accounting for your allergies and dietary preferences. [3](#3-2) 
+
+### 🔒 **Secure Authentication**
+Multiple sign-in options including GitHub, Google, and email/password through Clerk integration. [4](#3-3) 
+
+### 💾 **Real-time Database**
+Powered by Convex for instant synchronization and program management. [5](#3-4) 
+
+---
+
+## 🎯 **How It Works**
+
+1. **Voice Conversation**: Start a conversation with the AI assistant about your fitness goals
+2. **Data Collection**: AI asks intelligent follow-up questions about your preferences, limitations, and objectives
+3. **AI Processing**: Gemini AI generates personalized workout and diet plans based on your responses
+4. **Plan Creation**: Structured plans are validated and stored in the Convex database
+5. **Real-time Access**: Access your personalized plans instantly across all devices
+
+---
+
 <div align="center">
 
 ## 🤝 **JOIN THE COMMUNITY**
@@ -373,47 +419,6 @@ Help us improve!
 2. 🌿 Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. ✅ Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
-5. 🎉 Open a Pull Request
 
----
-
-<div align="center">
-
-## 📄 **LICENSE & ACKNOWLEDGMENTS**
-
-</div>
-
-<table align="center">
-<tr>
-<td align="center" width="50%">
-
-### 📜 **License**
-This project is licensed under the **MIT License**
-<br/>
-See [LICENSE](LICENSE) for details
-
-</td>
-<td align="center" width="50%">
-
-### 🙏 **Special Thanks**
-Built with amazing tools from:
-<br/>
-[Vapi](https://vapi.ai/) • [Google AI](https://ai.google/) • [Convex](https://convex.dev/) • [Clerk](https://clerk.com/)
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-### 💫 **MADE WITH ❤️ BY [YUVRAJSINHRAJ](https://github.com/YuvrajsinhRaj)** 💫
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=3000&pause=1000&color=18CEF2&center=true&vCenter=true&width=500&lines=Star+⭐+this+repo+if+you+found+it+helpful!;Follow+for+more+AI+projects!;Let's+build+the+future+together!" alt="Footer Typing SVG" />
-
-[![GitHub followers](https://img.shields.io/github/followers/YuvrajsinhRaj?style=social)](https://github.com/YuvrajsinhRaj)
-[![Twitter Follow](https://img.shields.io/twitter/follow/YuvrajsinhRaj?style=social)](https://twitter.com/YuvrajsinhRaj)
-
-</div>
-```
+Wiki pages you might want to explore:
+- [AI & Voice Integration (YuvrajsinhRaj/AI-Fitness-assistant)](/wiki/YuvrajsinhRaj/AI-Fitness-assistant#5)
